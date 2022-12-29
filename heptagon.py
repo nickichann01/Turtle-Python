@@ -7,13 +7,13 @@ t = turtle.Turtle()
 # Set the turtle's pen size
 t.pensize(1)
 
-# Move the turtle to the starting position for the house
+# Move the turtle to the starting position for the heptagon
 t.penup()
 t.goto(-50, 0)
 t.pendown()
 
 # Draw a circle moving heptagon
-t.color('blue')
+t.color('blue', 'purple')
 t.speed(0)
 
 #600 is for 600 heptagon
